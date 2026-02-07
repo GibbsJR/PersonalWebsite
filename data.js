@@ -5,7 +5,7 @@ const siteData = {
   title: "Quantum Research Scientist",
   subtitle: "Enhancing quantum simulation with hybrid quantum-classical algorithms.",
 
-  // Biography - Industrial framing for Microsoft Quantum
+  // Biography
   bio: `I am a physicist, with 6 years experience researching hybrid quantum-classical algorithms.
   My (soon to be completed) PhD has focused on maximally leveraging classical computation, to support the simulation of quantum many-body systems.
   We have primarily used a blend of powerful GPU accelerated tensor network algorithms, with inspiration from machine learning techniques, to aid the compilation of efficient circuits more amenable to the constraints of both NISQ and fault-tolerant quantum computers.
