@@ -7,26 +7,26 @@ const siteData = {
 
   // Biography
   bio: `I am a physicist, with 6 years experience researching hybrid quantum-classical algorithms.
-  My (soon to be completed) PhD has focused on maximally leveraging classical computation, to support the simulation of quantum many-body systems. We have primarily used a blend of powerful GPU accelerated tensor network algorithms, with inspiration from machine learning techniques, to aid the compilation of efficient circuits more amenable to the constraints of both NISQ and fault-tolerant quantum computers. I am driven by the challenge of scaling quantum advantages to solve real-world computational problems at the intersection of HPC and Quantum.`,
+  My (soon to be completed) PhD focuses on maximally leveraging classical computation to support Hamiltonian simulation on quantum computers. My collaborators and I have primarily used a blend of tensor network algorithms, with inspiration from machine learning techniques, to aid the compilation of efficient circuits more amenable to the constraints of both NISQ and fault-tolerant quantum computers. I am driven by the challenge of scaling quantum simulations to solve real-world computational problems at the intersection of HPC and Quantum.`,
 
   // Research Interests
   research: [
     {
       id: "simulation",
       title: "Quantum Simulation",
-      description: "Motivated by the killer application for quantum computers, the simulation of quantum many-body systems. I have worked on both static and dynamic simulation of low-dimensional spin lattices, lattice gauge theories, nuclear structure.",
+      description: "Motivated by the killer application for quantum computers, the simulation of quantum many-body systems. I have worked on both static and dynamic simulation of spin lattices, lattice gauge theories, nuclear structure.",
       icon: "wave" // CSS-based icon identifier
     },
     {
       id: "compilation",
       title: "Circuit Compilation",
-      description: "Quantum computers still struggle with high gate counts. Developing specialized software to reduce gate overheads for quantum simulation. These methods have been tailored to benefit both NISQ and fault-tolerant quantum computers.",
+      description: "Quantum computers still struggle with high gate counts. I develop specialized software to reduce gate overheads for quantum simulation. These methods have been tailored to benefit both NISQ and fault-tolerant quantum computers.",
       icon: "gate"
     },
     {
       id: "tensor",
       title: "Tensor Network Algorithms",
-      description: "Tensor network methods are the de-facto competitor to quantum advantage claims, leveraging increasing advanced GPU processors. We instead use these powerful algorithms in support of the quantum computation, using MPS and PEPS as simulate and optimize efficient quantum circuits in the low entanglement limit.",
+      description: "Tensor network methods are the de-facto competitor to quantum advantage claims, leveraging increasingly advanced GPU processors. We instead use these powerful algorithms in support of the quantum computation, using MPS and PEPS to optimize efficient quantum circuits, ready to run on real hardare.",
       icon: "network"
     }
   ],
