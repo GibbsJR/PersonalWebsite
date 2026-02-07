@@ -7,9 +7,7 @@ const siteData = {
 
   // Biography
   bio: `I am a physicist, with 6 years experience researching hybrid quantum-classical algorithms.
-  My (soon to be completed) PhD has focused on maximally leveraging classical computation, to support the simulation of quantum many-body systems.
-  We have primarily used a blend of powerful GPU accelerated tensor network algorithms, with inspiration from machine learning techniques, to aid the compilation of efficient circuits more amenable to the constraints of both NISQ and fault-tolerant quantum computers.
-  I am driven by the challenge of scaling quantum advantages to solve real-world computational problems at the intersection of HPC and Quantum.`,
+  My (soon to be completed) PhD has focused on maximally leveraging classical computation, to support the simulation of quantum many-body systems. We have primarily used a blend of powerful GPU accelerated tensor network algorithms, with inspiration from machine learning techniques, to aid the compilation of efficient circuits more amenable to the constraints of both NISQ and fault-tolerant quantum computers. I am driven by the challenge of scaling quantum advantages to solve real-world computational problems at the intersection of HPC and Quantum.`,
 
   // Research Interests
   research: [
