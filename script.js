@@ -92,6 +92,7 @@ class TensorNetworkAnimation {
       this.mouse.x = null;
       this.mouse.y = null;
     });
+
   }
 
   drawParticle(particle, time) {
@@ -200,7 +201,7 @@ class TensorNetworkAnimation {
     const { canvas, mouse } = this;
     const { physics } = this.config;
 
-    // Mouse interaction - repulsion (adds to acceleration)
+    // Mouse interaction - attraction
     if (mouse.x !== null && mouse.y !== null) {
       const dx = particle.x - mouse.x;
       const dy = particle.y - mouse.y;
@@ -208,8 +209,8 @@ class TensorNetworkAnimation {
 
       if (distance < mouse.radius && distance > 0) {
         const force = (mouse.radius - distance) / mouse.radius * 0.5;
-        particle.ax += (dx / distance) * force;
-        particle.ay += (dy / distance) * force;
+        particle.ax -= (dx / distance) * force;
+        particle.ay -= (dy / distance) * force;
       }
     }
 
