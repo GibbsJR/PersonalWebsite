@@ -8,4 +8,4 @@ A static portfolio site showcasing research in quantum simulation, circuit compi
 
 ## Live Site
 
-Visit: https://YOUR_USERNAME.github.io/REPO_NAME/
+Visit: https://gibbsjr.github.io/PersonalWebsite/
