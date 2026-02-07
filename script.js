@@ -772,6 +772,31 @@ function renderPublications() {
   });
 }
 
+function renderTalks() {
+  const container = document.getElementById('talks-list');
+  if (!container || typeof siteData === 'undefined') return;
+
+  container.innerHTML = '';
+
+  siteData.talks.forEach(talk => {
+    const item = document.createElement('div');
+    item.className = 'talk-item';
+
+    const invitedBadge = talk.invited ? '<span class="talk-invited">Invited</span>' : '';
+
+    item.innerHTML = `
+      <span class="talk-year">${talk.year}</span>
+      <div class="talk-content">
+        <h4>${talk.title}</h4>
+        <p class="talk-event">${talk.event}${invitedBadge}</p>
+        <p class="talk-location">${talk.location}</p>
+      </div>
+    `;
+
+    container.appendChild(item);
+  });
+}
+
 
 // ============================================
 // MOBILE NAVIGATION
@@ -859,6 +884,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderHeroContent();
   renderResearchCards();
   renderPublications();
+  renderTalks();
 
   // Initialize UI interactions
   initMobileNav();

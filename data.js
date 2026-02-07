@@ -20,7 +20,7 @@ const siteData = {
     {
       id: "compilation",
       title: "Circuit Compilation",
-      description: "Quantum computers still struggle with high gate counts. I develop specialized software to reduce gate overheads for quantum simulation. These methods have been tailored to benefit both NISQ and fault-tolerant quantum computers.",
+      description: "Quantum computers still struggle with high gate counts. I develop specialized algorithms to reduce gate overheads for quantum simulation. These methods have been tailored to benefit both NISQ and fault-tolerant quantum computers.",
       icon: "gate"
     },
     {
@@ -136,6 +136,59 @@ const siteData = {
       authors: "J Gibbs, K Gili, Z Holmes, B Commeau, A Arrasmith, L Cincio, AT Sornborger, PJ Coles",
       journal: "npj Quantum Information",
       link: "https://www.nature.com/articles/s41534-022-00625-0"
+    }
+  ],
+
+  // Selected Talks - Chronological, most recent first
+  talks: [
+    {
+      year: 2025,
+      title: "Enhancing Quantum Simulations with Tensor Networks",
+      event: "Quantinuum internal seminar",
+      location: "Cambridge, UK",
+      invited: true
+    },
+    {
+      year: 2025,
+      title: "Progress towards Quantum Simulations of High-Energy Physics Scattering",
+      event: "Advancing Quantum Computing, IBM Innovation Studio",
+      location: "London, UK",
+      invited: true
+    },
+    {
+      year: 2025,
+      title: "Fermionic Wave Packet Scattering",
+      event: "QC4HEP working group",
+      location: "CERN, Switzerland",
+      invited: false
+    },
+    {
+      year: 2024,
+      title: "Accelerating the quantum simulation of Lattice Gauge Theories with Tensor Networks",
+      event: "QC4HEP Theory Team Workshop",
+      location: "Cyprus",
+      invited: false
+    },
+    {
+      year: 2023,
+      title: "Long-time simulations for fixed input states on quantum hardware",
+      event: "ORNL Quantum Computing User Forum",
+      location: "ORNL, Tennessee, US",
+      invited: false
+    },
+    {
+      year: 2023,
+      title: "Learning the (n,2n) Cross-Section",
+      event: "DSTL AI Fest",
+      location: "University of Exeter, UK",
+      invited: false
+    },
+    {
+      year: 2022,
+      title: "NISQ Dynamical Simulations",
+      event: "Quantum Science Center workshop",
+      location: "IBM Almaden, US",
+      invited: false
     }
   ],
 

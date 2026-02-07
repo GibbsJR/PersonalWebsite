@@ -512,6 +512,68 @@ section {
   margin-top: 0.25rem;
 }
 
+/* Selected Talks Section */
+.talks-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.talk-item {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: var(--space-md);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-void-lighter);
+  transition: all var(--transition-fast);
+}
+
+.talk-item:hover {
+  padding-left: var(--space-sm);
+  background: var(--color-void-light);
+  margin: 0 calc(-1 * var(--space-sm));
+  padding-right: var(--space-sm);
+}
+
+.talk-year {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--color-cyan);
+  font-weight: 600;
+}
+
+.talk-content h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-starlight);
+  margin-bottom: 0.25rem;
+}
+
+.talk-event {
+  font-size: 0.9rem;
+  color: var(--color-starlight-dim);
+}
+
+.talk-invited {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-void);
+  background: var(--color-cyan);
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.talk-location {
+  font-size: 0.85rem;
+  color: var(--color-cyan);
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
 /* Footer */
 footer {
   padding: var(--space-lg) 0;
