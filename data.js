@@ -31,6 +31,28 @@ const siteData = {
     }
   ],
 
+  // Featured Software
+  software: {
+    name: "TenSynth.jl",
+    tagline: "Tensor Network to Quantum Circuit Synthesis",
+    description: "A Julia package that transforms quantum states and unitaries expressed as tensor networks into optimized quantum circuits ready for real hardware.",
+    highlights: [
+      "Compiles MPS, MPO, and infinite MPS to quantum circuits",
+      "Hardware-aware optimization for NISQ and fault-tolerant devices",
+      "Built-in spin models with Trotter decomposition (1st-4th order)",
+      "OpenQASM export for quantum processor execution"
+    ],
+    stats: {
+      tests: "476",
+      notebooks: "8",
+      language: "Julia"
+    },
+    links: {
+      github: "https://github.com/GibbsJR/TenSynth"
+    },
+    tags: ["Julia", "Tensor Networks", "Quantum Computing", "Circuit Synthesis", "Open Source"]
+  },
+
   // Technical Skills
   skills: {
     languages: [
